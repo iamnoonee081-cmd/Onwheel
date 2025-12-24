@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>SproutsOnWheel 🌱 | Nutrition on the Move</title>
+    <meta name="description" content="Fresh, customizable sprouts and fruit-based nutrition meals for gym lovers. Clean food delivery made simple.">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div id="canvas-container"></div>
+        <div class="hero-content">
+            <h1 class="brand-name">SproutsOnWheel 🌱</h1>
+            <p class="tagline">Nutrition on the Move</p>
+            <p class="hero-description">
+                Fresh, customizable sprouts and fruit-based nutrition meals designed for gym lovers. 
+                Clean eating made simple with doorstep delivery.
+            </p>
+            <a href="#products" class="cta-button">
+                <span>Order Now</span>
+                <span>🚀</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2 class="section-title">Our Fresh Menu</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-icon">🥗</div>
+                <h3 class="product-name">Power Sprout Bowl</h3>
+                <div class="product-price">₹149</div>
+                <p class="product-description">Mixed sprouts with fresh vegetables, nuts, and our signature dressing</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🍓</div>
+                <h3 class="product-name">Fruit & Sprout Mix</h3>
+                <div class="product-price">₹179</div>
+                <p class="product-description">Seasonal fruits combined with protein-rich sprouts for the perfect post-workout meal</p>
+            </div>
+            <div class="product-card">
+                <div class="product-icon">🥤</div>
+                <h3 class="product-name">Green Boost Smoothie</h3>
+                <div class="product-price">₹129</div>
+                <p class="product-description">Nutrient-packed smoothie with sprouts, spinach, and tropical fruits</p>
+            </div>
+        </div>
+        
+        <div class="custom-order">
+            <h3>Build Your Own Bowl</h3>
+            <p>Customize your perfect meal with our fresh ingredients</p>
+            <div class="custom-options">
+                <span class="option-tag">Moong Sprouts</span>
+                <span class="option-tag">Chana Sprouts</span>
+                <span class="option-tag">Mixed Fruits</span>
+                <span class="option-tag">Nuts & Seeds</span>
+                <span class="option-tag">Yogurt Base</span>
+                <span class="option-tag">Honey Drizzle</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section>
+        <h2 class="section-title">Why Choose SproutsOnWheel?</h2>
+        <div class="trust-grid">
+            <div class="trust-item">
+                <div class="trust-icon">🌱</div>
+                <h3 class="trust-title">Fresh Daily</h3>
+                <p class="trust-text">Sprouts prepared fresh every morning for maximum nutrition</p>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🚚</div>
+                <h3 class="trust-title">Quick Delivery</h3>
+                <p class="trust-text">30-minute delivery to your gym or home</p>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">💪</div>
+                <h3 class="trust-title">Gym Approved</h3>
+                <p class="trust-text">Nutritionist-designed meals for fitness enthusiasts</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Local JavaScript -->
+    <script src="./js/animations.js" defer></script>
+    <script src="./js/three-background.js" defer></script>
+</body>
+</html>
